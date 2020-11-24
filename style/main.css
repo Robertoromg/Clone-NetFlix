@@ -11,7 +11,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Times, sans-serif;
     color: white;
 
 }
@@ -43,7 +43,7 @@ header nav a:hover{
 .filme-principal{
   font-size: 16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) , url('../img/peakyBlinders.jpg')no-repeat;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -93,4 +93,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-filmes{
+    margin-top: 10px;
 }
